@@ -1,21 +1,21 @@
 <div align="center">
   <img height="170x" src=https://avatars.githubusercontent.com/u/53411373?s=400&u=63e0d19509e394c04937223e1509b71e9767cd9b&v=4/>
-  <h1>ZSOL</h1>
+  <h1>sCash</h1>
 
   <p>
     <strong>Privacy-First Program Framework for Solana Ecosystem</strong>
   </p>
 
   <p>
-    <a href="https://ZSOL-lang.com"><img alt="Tutorials" src="https://img.shields.io/badge/docs-tutorials-blueviolet" /></a>
-    <a href="https://discord.gg/ZSOL"><img alt="Discord Chat" src="https://img.shields.io/discord/889577356681945098?color=blueviolet" /></a>
-    <a href="https://opensource.org/licenses/Apache-2.0"><img alt="License" src="https://img.shields.io/github/license/ZSOL/ZSOL?color=blueviolet" /></a>
+    <a href="https://sCash-lang.com"><img alt="Tutorials" src="https://img.shields.io/badge/docs-tutorials-blueviolet" /></a>
+    <a href="https://discord.gg/sCash"><img alt="Discord Chat" src="https://img.shields.io/discord/889577356681945098?color=blueviolet" /></a>
+    <a href="https://opensource.org/licenses/Apache-2.0"><img alt="License" src="https://img.shields.io/github/license/sCash/sCash?color=blueviolet" /></a>
   </p>
 </div>
 
-## What is ZSOL?
+## What is sCash?
 
-ZSOL is a groundbreaking framework built for the Solana ecosystem, providing developers with seamless tools for writing privacy-focused programs and creating encrypted tokens that protect user transaction data while maintaining Solana's incredible speed and low costs.
+sCash is a groundbreaking framework built for the Solana ecosystem, providing developers with seamless tools for writing privacy-focused programs and creating encrypted tokens that protect user transaction data while maintaining Solana's incredible speed and low costs.
 
 - **Unified Privacy API**: One codebase for encrypted transactions across Solana
 - **Private Token Creation**: Create SPL tokens with built-in encryption and zero-knowledge proofs
@@ -24,10 +24,10 @@ ZSOL is a groundbreaking framework built for the Solana ecosystem, providing dev
 - **TypeScript package**: Type-safe clients from IDL for encrypted communication
 - **CLI and workspace management**: Complete privacy-first application development
 
-ZSOL is the first framework to bring Zcash-style privacy to Solana, enabling truly private transactions at scale.
+sCash is the first framework to bring Zcash-style privacy to Solana, enabling truly private transactions at scale.
 
 > [!NOTE]
-> ZSOL combines Solana's speed and affordability with enterprise-grade privacy. With 400ms block times, $0.00025 average transaction fees, and support for 65,000+ TPS, you get the performance you need with the privacy users deserve. If you're familiar with Anchor or native Solana development, you'll feel right at home with ZSOL's privacy-enhanced approach.
+> sCash combines Solana's speed and affordability with enterprise-grade privacy. With 400ms block times, $0.00025 average transaction fees, and support for 65,000+ TPS, you get the performance you need with the privacy users deserve. If you're familiar with Anchor or native Solana development, you'll feel right at home with sCash's privacy-enhanced approach.
 
 ## Key Features
 
@@ -40,13 +40,13 @@ ZSOL is the first framework to bring Zcash-style privacy to Solana, enabling tru
 - **Lightning Fast**: Leverage Solana's 400ms block times and sub-second finality
 - **Ultra Low Fees**: Deploy and transact with ~$0.00025 median transaction fees
 
-## Why Solana & ZSOL?
+## Why Solana & sCash?
 
 ### Solana (2025 Performance)
 Solana continues to lead in performance with 400ms block times, processing over 65,000 transactions per second at peak, with average fees remaining under $0.001. The network handles millions of daily transactions with consistent sub-second finality.
 
-### ZSOL - Privacy for Solana
-ZSOL leverages Solana's infrastructure to provide:
+### sCash - Privacy for Solana
+sCash leverages Solana's infrastructure to provide:
 - **Zero-Knowledge Architecture**: Built on proven ZK-SNARK technology
 - **Full SPL Compatibility**: Private versions of any SPL token
 - **Solana Ecosystem Integration**: Seamless interaction with existing Solana programs
@@ -54,23 +54,23 @@ ZSOL leverages Solana's infrastructure to provide:
 
 ## Getting Started
 
-For a quickstart guide and in-depth tutorials, see the [ZSOL book](https://book.ZSOL-lang.com) and the [ZSOL documentation](https://ZSOL-lang.com).
+For a quickstart guide and in-depth tutorials, see the [sCash book](https://book.sCash-lang.com) and the [sCash documentation](https://sCash-lang.com).
 
-To jump straight to examples, go [here](https://github.com/ZSOL/ZSOL/tree/master/examples). For the latest Rust and TypeScript API documentation, see [docs.rs](https://docs.rs/ZSOL-lang) and the [typedoc](https://www.ZSOL-lang.com/docs/clients/typescript).
+To jump straight to examples, go [here](https://github.com/sCash/sCash/tree/master/examples). For the latest Rust and TypeScript API documentation, see [docs.rs](https://docs.rs/sCash-lang) and the [typedoc](https://www.sCash-lang.com/docs/clients/typescript).
 
 ## Packages
 
 | Package                 | Description                                              | Version                                                                                                                          | Docs                                                                                                            |
 | :---------------------- | :------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------- |
-| `ZSOL-lang`           | Rust primitives for writing privacy-preserving programs         | [![Crates.io](https://img.shields.io/crates/v/ZSOL-lang?color=blue)](https://crates.io/crates/ZSOL-lang)                     | [![Docs.rs](https://docs.rs/ZSOL-lang/badge.svg)](https://docs.rs/ZSOL-lang)                                |
-| `ZSOL-spl`            | CPI clients for private SPL tokens and standards | [![crates](https://img.shields.io/crates/v/ZSOL-spl?color=blue)](https://crates.io/crates/ZSOL-spl)                          | [![Docs.rs](https://docs.rs/ZSOL-spl/badge.svg)](https://docs.rs/ZSOL-spl)                                  |
-| `ZSOL-client`         | Rust client for ZSOL privacy programs              | [![crates](https://img.shields.io/crates/v/ZSOL-client?color=blue)](https://crates.io/crates/ZSOL-client)                    | [![Docs.rs](https://docs.rs/ZSOL-client/badge.svg)](https://docs.rs/ZSOL-client)                            |
-| `@ZSOL/sdk`           | TypeScript client for ZSOL programs                    | [![npm](https://img.shields.io/npm/v/@ZSOL/sdk.svg?color=blue)](https://www.npmjs.com/package/@ZSOL/sdk)                     | [![Docs](https://img.shields.io/badge/docs-typedoc-blue)](https://ZSOL.github.io/ZSOL/ts/index.html)        |
-| `@ZSOL/cli`           | CLI to support building and managing private apps    | [![npm](https://img.shields.io/npm/v/@ZSOL/cli.svg?color=blue)](https://www.npmjs.com/package/@ZSOL/cli)                     | [![Docs](https://img.shields.io/badge/docs-typedoc-blue)](https://ZSOL.github.io/ZSOL/cli/commands.html)    |
+| `sCash-lang`           | Rust primitives for writing privacy-preserving programs         | [![Crates.io](https://img.shields.io/crates/v/sCash-lang?color=blue)](https://crates.io/crates/sCash-lang)                     | [![Docs.rs](https://docs.rs/sCash-lang/badge.svg)](https://docs.rs/sCash-lang)                                |
+| `sCash-spl`            | CPI clients for private SPL tokens and standards | [![crates](https://img.shields.io/crates/v/sCash-spl?color=blue)](https://crates.io/crates/sCash-spl)                          | [![Docs.rs](https://docs.rs/sCash-spl/badge.svg)](https://docs.rs/sCash-spl)                                  |
+| `sCash-client`         | Rust client for sCash privacy programs              | [![crates](https://img.shields.io/crates/v/sCash-client?color=blue)](https://crates.io/crates/sCash-client)                    | [![Docs.rs](https://docs.rs/sCash-client/badge.svg)](https://docs.rs/sCash-client)                            |
+| `@sCash/sdk`           | TypeScript client for sCash programs                    | [![npm](https://img.shields.io/npm/v/@sCash/sdk.svg?color=blue)](https://www.npmjs.com/package/@sCash/sdk)                     | [![Docs](https://img.shields.io/badge/docs-typedoc-blue)](https://sCash.github.io/sCash/ts/index.html)        |
+| `@sCash/cli`           | CLI to support building and managing private apps    | [![npm](https://img.shields.io/npm/v/@sCash/cli.svg?color=blue)](https://www.npmjs.com/package/@sCash/cli)                     | [![Docs](https://img.shields.io/badge/docs-typedoc-blue)](https://sCash.github.io/sCash/cli/commands.html)    |
 
 ## Note
 
-- **ZSOL is in active development, so all APIs are subject to change.**
+- **sCash is in active development, so all APIs are subject to change.**
 - **This code is unaudited. Use at your own risk.**
 
 ## Examples
@@ -78,8 +78,8 @@ To jump straight to examples, go [here](https://github.com/ZSOL/ZSOL/tree/master
 Here's a private counter program that maintains an encrypted count, where only the designated `authority` can increment and view the real value:
 
 ```rust
-use ZSOL_lang::prelude::*;
-use ZSOL_lang::privacy::*;
+use sCash_lang::prelude::*;
+use sCash_lang::privacy::*;
 
 declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
 
@@ -177,23 +177,23 @@ pub enum ErrorCode {
 
 ```bash
 # Create a private SPL token with encrypted balances
-ZSOL token create --name "PrivateToken" --symbol "PVTK" --privacy shielded
+sCash token create --name "PrivateToken" --symbol "PVTK" --privacy shielded
 
 # Deploy with privacy features
-ZSOL deploy --privacy-level high
+sCash deploy --privacy-level high
 
 # Create shielded addresses
-ZSOL address generate --type shielded
+sCash address generate --type shielded
 
 # Send encrypted transaction
-ZSOL transfer --to <shielded-address> --amount 100 --private
+sCash transfer --to <shielded-address> --amount 100 --private
 ```
 
 ### Private Token Transfer Example
 
 ```rust
-use ZSOL_lang::prelude::*;
-use ZSOL_spl::private_token::*;
+use sCash_lang::prelude::*;
+use sCash_spl::private_token::*;
 
 declare_id!("PrivateTokenProgram111111111111111111111111");
 
@@ -242,11 +242,11 @@ mod private_transfer {
 }
 ```
 
-For more, see the [examples](https://github.com/ZSOL/ZSOL/tree/master/examples) and [tests](https://github.com/ZSOL/ZSOL/tree/master/tests) directories.
+For more, see the [examples](https://github.com/sCash/sCash/tree/master/examples) and [tests](https://github.com/sCash/sCash/tree/master/tests) directories.
 
 ## Architecture
 
-ZSOL uses a privacy-first runtime that integrates cryptographic primitives directly into Solana programs. The framework handles:
+sCash uses a privacy-first runtime that integrates cryptographic primitives directly into Solana programs. The framework handles:
 
 - **Zero-Knowledge Proofs**: Generate and verify ZK-SNARKs for private transactions
 - **Encrypted State**: Store sensitive data on-chain with homomorphic encryption
@@ -257,7 +257,7 @@ ZSOL uses a privacy-first runtime that integrates cryptographic primitives direc
 
 ## Privacy Technology
 
-ZSOL implements multiple privacy-preserving techniques:
+sCash implements multiple privacy-preserving techniques:
 
 ### Zero-Knowledge Proofs
 - **ZK-SNARKs**: Succinct non-interactive arguments of knowledge
@@ -307,7 +307,7 @@ ZSOL implements multiple privacy-preserving techniques:
 - **Confidential Voting**: Anonymous governance participation
 - **Selective Disclosure**: Compliance and audit capabilities
 
-## Why Choose ZSOL?
+## Why Choose sCash?
 
 ### For Developers
 - **Familiar Tools**: Built on Anchor and Solana standards
@@ -332,26 +332,26 @@ ZSOL implements multiple privacy-preserving techniques:
 
 ## License
 
-ZSOL is licensed under [Apache 2.0](./LICENSE).
+sCash is licensed under [Apache 2.0](./LICENSE).
 
-Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in ZSOL by you, as defined in the Apache-2.0 license, shall be licensed as above, without any additional terms or conditions.
+Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in sCash by you, as defined in the Apache-2.0 license, shall be licensed as above, without any additional terms or conditions.
 
 ## Contribution
 
-Thank you for your interest in contributing to ZSOL!
+Thank you for your interest in contributing to sCash!
 Please see the [CONTRIBUTING.md](./CONTRIBUTING.md) to learn how.
 
 ## The Future is Private
 
-ZSOL represents the future of blockchain privacy: a world where users control their financial data, where transactions are confidential by default, and where privacy and performance coexist seamlessly on Solana.
+sCash represents the future of blockchain privacy: a world where users control their financial data, where transactions are confidential by default, and where privacy and performance coexist seamlessly on Solana.
 
-With Solana's commitment to scalability and decentralization, combined with ZSOL's privacy-first approach, we're building the foundation for truly private, decentralized finance.
+With Solana's commitment to scalability and decentralization, combined with sCash's privacy-first approach, we're building the foundation for truly private, decentralized finance.
 
 ### Thanks ❤️
 
 <div align="center">
-  <a href="https://github.com/ZSOL/ZSOL/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=ZSOL/ZSOL" width="100%" />
+  <a href="https://github.com/sCash/sCash/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=sCash/sCash" width="100%" />
   </a>
 </div>
 
@@ -361,7 +361,7 @@ With Solana's commitment to scalability and decentralization, combined with ZSOL
 
 - [Solana Official Documentation](https://docs.solana.com/)
 - [Zero-Knowledge Proofs Explained](https://z.cash/technology/zksnarks/)
-- [ZSOL Network Documentation](#) (Coming soon)
+- [sCash Network Documentation](#) (Coming soon)
 - [Solana Developer Resources](https://solana.com/developers)
 - [Privacy-Preserving Cryptocurrencies Research](https://crypto.stanford.edu/)
 - [SPL Token Documentation](https://spl.solana.com/token)
@@ -370,19 +370,19 @@ With Solana's commitment to scalability and decentralization, combined with ZSOL
 
 ## Security & Audits
 
-Privacy and security are paramount. ZSOL undergoes regular security audits by leading blockchain security firms. For security researchers, please see our [SECURITY.md](./SECURITY.md) for responsible disclosure.
+Privacy and security are paramount. sCash undergoes regular security audits by leading blockchain security firms. For security researchers, please see our [SECURITY.md](./SECURITY.md) for responsible disclosure.
 
 ## Community
 
 Join our growing community of privacy advocates and developers:
 
-- **Discord**: [discord.gg/ZSOL](https://discord.gg/ZSOL)
-- **Twitter**: [@ZSOL](https://twitter.com/ZSOL)
-- **Forum**: [forum.ZSOL.com](https://forum.ZSOL.com)
-- **Telegram**: [t.me/ZSOL](https://t.me/ZSOL)
+- **Discord**: [discord.gg/sCash](https://discord.gg/sCash)
+- **Twitter**: [@sCash](https://twitter.com/sCash)
+- **Forum**: [forum.sCash.com](https://forum.sCash.com)
+- **Telegram**: [t.me/sCash](https://t.me/sCash)
 
 ## Acknowledgments
 
-ZSOL builds on the groundbreaking work of privacy-focused cryptocurrencies like Zcash and combines it with Solana's industry-leading performance. Special thanks to the Solana Foundation, the zero-knowledge cryptography research community, and all our contributors.
+sCash builds on the groundbreaking work of privacy-focused cryptocurrencies like Zcash and combines it with Solana's industry-leading performance. Special thanks to the Solana Foundation, the zero-knowledge cryptography research community, and all our contributors.
 
-**Privacy is a right, not a privilege. Build with ZSOL.**
+**Privacy is a right, not a privilege. Build with sCash.**
